@@ -5,9 +5,9 @@ class Triangle {
 
   Triangle() {
     this.vertex = new Point [3];
-    this.vertex[0] = new Point(300*cos(radians( 30)), 300*sin(radians( 30)));
-    this.vertex[1] = new Point(300*cos(radians(150)), 300*sin(radians(150)));
-    this.vertex[2] = new Point(300*cos(radians(270)), 300*sin(radians(270)));
+    this.vertex[0] = new Point(500*cos(radians( 30)), 500*sin(radians( 30)));
+    this.vertex[1] = new Point(500*cos(radians(150)), 500*sin(radians(150)));
+    this.vertex[2] = new Point(500*cos(radians(270)), 500*sin(radians(270)));
   }
 
   Triangle(Point p1, Point p2, Point p3) {
